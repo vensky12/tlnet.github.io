@@ -28,17 +28,14 @@
 <body style="background-color: #FFACFF">
 
 
-<audio id="audio" src="zyddn.mp3" autoplay loop></audio>
+<audio id="audi" src="zyddn.mp3" autoplay loop></audio>
 
 <!--<embed height="50" width="100" src="zyddn.mp3" hidden="true" autostart="true" loop="true">-->
 	<script type="text/javascript">
 	//--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
 document.addEventListener('touchstart', function () {
-    function audioAutoPlay() {
-        var audio = document.getElementById('audio');
+        var audio = document.getElementById('audi');
             audio.play();
-    }
-    audioAutoPlay();
 });
 	</script>
 
