@@ -104,7 +104,7 @@ function timeElapse(c){
         f = "0" + f
     }
   //  var a = '<span class="digit">' + g + '</span> 天 <span class="digit">' + b + '</span> 时 <span class="digit">' + d + '</span> 分 <span class="digit">' + f + "</span> 秒";
-  var a = '        相识的第 <span class="digit">' + g + '</span> 天'
+  var a = '          相识的第 <span class="digit">' + g + '</span> 天'
     $("#elapseClock").html(a)
 }
 
